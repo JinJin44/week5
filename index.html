@@ -6,9 +6,50 @@
   <title>学校紹介</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="min-h-screen">
-
-    <header class="bg-blue-600 w-full max-w-auto flex justify-between">
-    <dive class="text-black text-5xl font-bold"></dive>
+<body class="min-h-screen bg-orange-600 flex flex-col">
+  <header class="bg-blue-600 w-full max-w-auto justify-between flex items-center justify-center flex-col md:flex-row">
+    <div class="text-black text-3xl font-bold p-6">北足柄中学校</div>
+    <nav class="text-gray-600 text-2xl text-sm flex ml-auto gap-6 p-6">
+      <a class="hover:text-black font-bold underline">ホーム</a>
+      <a class="hover:text-black font-bold underline">イベント</a>
+      <a class="hover:text-black font-bold underline">紹介</a>
+    </nav>
     </header>
-</body>
+    <main class="flex-1">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
+      <div class="bg-white rounded-lg hover:shadow-lg p-6">
+        <p class="text-center text-5xl">🏫</p>
+        <p class="text-2xl font-bold text-center">学校</p>
+        <p class="text-3xl text-center text-amber-900 font-bold">創立100年</p>
+      </div>
+      <div class="bg-white rounded-lg hover:shadow-lg p-6">
+        <p class="text-center text-5xl">👴</p>
+        <p class="text-2xl font-bold text-center">校長</p>
+        <p class="text-3xl text-center text-amber-900 font-bold">最終学歴ハーバード卒</p>
+      </div>
+      <div class="bg-white rounded-lg hover:shadow-lg p-6">
+        <p class="text-center text-5xl ">👵</p>
+        <p class="text-2xl font-bold text-center">副校長先生</p>
+        <p class="text-3xl text-center text-amber-900 font-bold">元地方議員</p>
+      </div>
+      <div class="bg-white rounded-lg hover:shadow-lg p-6">
+        <p class="text-center text-5xl">⚾️</p>
+        <p class="text-2xl font-bold text-center">部活</p>
+        <p class="text-3xl text-center text-amber-900 font-bold">野球部が3年連続全国出場</p>
+      </div>
+      <div class="bg-white rounded-lg hover:shadow-lg p-6">
+        <p class="text-center text-5xl">⚽️</p>
+        <p class="text-2xl font-bold text-center">部活</p>
+        <p class="text-3xl text-center text-amber-900 font-bold">サッカーが全国初出場</p>
+      </div>
+      <div class="bg-white rounded-lg hover:shadow-lg p-6">
+        <p class="text-center text-5xl">🦸</p>
+        <p class="text-2xl font-bold text-center">卒業生</p>
+        <p class="text-3xl text-center text-amber-900 font-bold">みんなのヒーロー</p>
+      </div>
+    </div>
+    </main>
+    <footer class="bg-gray-100 text-center py-6 text-gray-500 text-sm">
+      <p>みんなの進路を共に掴もう</p>
+    </footer>
+</body>    
